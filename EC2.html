@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+TC">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Noto Serif TC", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left w3-amber" style="display:none;z-index:2;width:20%;min-width:200px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">收起</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">dessert</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-amber w3-xxlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16"></div>
+    <div class="w3-center w3-padding-16" style="color !important";>甜點食譜集</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-third">
+      <a href="EC_detail7.html">
+        <img src="ecimages/芒果奶酪.JPG" alt="Sandwich" style="width:100%">
+        <h3>芒果奶酪</h3>
+      </a> 
+      <p></p>
+    </div>
+    <div class="w3-third">
+      <a href="EC_detail8.html">
+        <img src="ecimages/葡式蛋塔.jpg" alt="Steak" style="width:100%">
+        <h3>葡式蛋塔</h3>
+      </a>
+      <p></p>
+    </div>
+    <div class="w3-third">
+        <a href="EC_detail9.html">
+          <img src="ecimages/香蕉法式吐司.jpg" alt="Steak" style="width:100%">
+          <h3>香蕉法式吐司</h3>
+        </a>
+        <p></p>
+    </div>    
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar w3-amber">
+      <a href="EC.html" class="w3-bar-item w3-button w3-hover-grey">«</a>
+      <a href="EC.html" class="w3-bar-item w3-button w3-hover-grey">1</a>
+      <a href="#" class="w3-bar-item w3-grey w3-button">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-grey">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+        <h3>關於我，一個烘焙愛好者</h3><br>
+        <img src="ecimages/頭像1.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="750" height="500">
+    <div class="w3-padding-32">
+      <h4><b>I am Who I Am!</b></h4>
+      <h6><i>With Passion For Real, Good Dessert</i></h6>
+      <p></p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32 w3-amber">
+        <div class="w3-third">
+          <h3>FOOTER</h3>
+          <p></p>
+          <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+        </div>
+      
+        <div class="w3-third">
+          <h3>BLOG POSTS</h3>
+          <ul class="w3-ul w3-hoverable">
+            <li class="w3-padding-16">
+              <img src="ecimages/" class="w3-left w3-margin-right" style="width:50px">
+              <span class="w3-large"></span><br>
+              <span></span>
+            </li>
+            <li class="w3-padding-16">
+              <img src="ecimages/" class="w3-left w3-margin-right" style="width:50px">
+              <span class="w3-large"></span><br>
+              <span></span>
+            </li> 
+          </ul>
+        </div>
+    
+        <div class="w3-third w3-serif">
+          <h3>POPULAR TAGS</h3>
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">甜點</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">手工甜點</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">食譜</span>
+            <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">馬卡龍</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">法式馬卡龍</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span>
+            <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">磅蛋糕</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">戚風蛋糕</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">大福</span>
+            <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">奶酪</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">葡式蛋塔</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">法式吐司</span>
+            <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span>
+          </p>
+        </div>
+      </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>

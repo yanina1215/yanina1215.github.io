@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left w3-amber" style="display:none;z-index:2;width:20%;min-width:200px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">收起</a>
+  <a href="EC.html" onclick="w3_close()" class="w3-bar-item w3-button">home</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-amber w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16"></div>
+    <div class="w3-center w3-padding-16">甜點食譜集</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+      <div class="w3-col m6 w3-padding-large ">
+        <img src="ecimages/巧克力馬卡龍.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+      </div>
+        
+      <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center">巧克力馬卡龍</h1><br>
+        <h5 class="w3-center">原味馬卡龍遇到濃郁巧克力醬</h5>
+        <hr>
+        <p class="w3-large">
+            <ul>
+              <li>材料：
+                <ul>
+                  <li>杏仁粉 60克</li>
+                  <li>糖粉 60克</li>
+                  <li>蛋白 45克</li>
+                  <li>細砂糖 40克</li>
+                  <li>塔塔粉 1/4茶匙(1克左右)</li>
+                  <br>
+                  <li>鮮奶油 1/4杯 (62.5毫升)</li> 
+                  <li>黑巧克力 1/2杯 (70克)</li>    
+                </ul>  
+              </li>  
+            </ul>                                      
+          </p>
+          <br>
+        <p class="w3-large">
+            <ul>
+              <li>INGREDIENTS：
+                <ul>
+                  <li>Almond meal  60g</li>
+                  <li>Icing sugar 60g</li>
+                  <li>Egg white 45g</li>
+                  <li>Caster sugar 40g</li>
+                  <li>Cream of tartar 1/4 tsp (1g)</li>
+                  <br>
+                  <li>Whipping Cream 1/4Cup (62.5ml) </li>
+                  <li>Dark Chocolate 1/2Cup (70g)</li>     
+                </ul>  
+              </li>
+            </ul>                                      
+        </p>
+        <br>        
+        <hr>
+        <p class="w3-medium w3-text-grey w3-hide-medium">※ 製作感想：<br></p>
+      </div>
+  </div>
+          
+    <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32 w3-amber">
+      <div class="w3-third">
+        <h3>FOOTER</h3>
+        <p></p>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+      </div>
+    
+      <div class="w3-third">
+        <h3>BLOG POSTS</h3>
+        <ul class="w3-ul w3-hoverable">
+          <li class="w3-padding-16">
+            <img src="ecimages/" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large"></span><br>
+            <span></span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="ecimages/" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large"></span><br>
+            <span></span>
+          </li> 
+        </ul>
+      </div>
+  
+      <div class="w3-third w3-serif">
+        <h3>POPULAR TAGS</h3>
+        <p>
+          <span class="w3-tag w3-black w3-margin-bottom">甜點</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">手工甜點</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">食譜</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">馬卡龍</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">法式馬卡龍</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">磅蛋糕</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">戚風蛋糕</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">大福</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">奶酪</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">葡式蛋塔</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">法式吐司</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span>
+        </p>
+      </div>
+    </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
